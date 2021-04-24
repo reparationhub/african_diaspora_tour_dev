@@ -1,14 +1,24 @@
 import { useEffect, useState } from "react";
-import { useSelector } from "react-redux";
 import PageHead from "components/PageHead";
+import { useRouter } from "next/router";
+import { useSelector } from "react-redux";
 import { Box, makeStyles } from "@material-ui/core";
-import Menu from "components/Menu";
 import Map from "components/Map";
+import TourBrief from "components/TourBrief";
 
-export default function Home() {
+export default function Intro() {
   const classes = useStyles();
+  const router = useRouter();
+  const { tourBriefs } = useSelector((state) => state);
+  const [brief, setBrief] = useState(null);
   const { mapInitialState } = useSelector((state) => state);
   const [mapState] = useState(mapInitialState);
+
+  useEffect(() => {
+    let tourId = router.query.tourId;
+    let brief = tourBriefs.find((brief) => brief.tourId == tourId);
+    setBrief(brief);
+  }, [router]);
 
   return (
     <div>
@@ -16,7 +26,7 @@ export default function Home() {
       <main>
         <Box className={classes.mainView}>
           <Map {...{ mapState }} />
-          <Menu />
+          {brief && <TourBrief {...{ brief }} />}
         </Box>
       </main>
     </div>
