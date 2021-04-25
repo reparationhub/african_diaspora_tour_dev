@@ -11,6 +11,13 @@ export const tours = [
     funFacts: [1, 2, 3, 4, 5, 6],
     darkStories: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     startButtons: [2],
+    mapState: {
+      zoom: 1,
+      position: { x: 0, y: 0 },
+      dark: 0.5,
+      blur: 0,
+      freezed: false,
+    },
     available: true,
   },
   {
@@ -20,6 +27,13 @@ export const tours = [
     funFacts: [],
     darkStories: [],
     startButtons: [3],
+    mapState: {
+      zoom: 1,
+      position: { x: 0, y: 0 },
+      dark: 0.5,
+      blur: 0,
+      freezed: false,
+    },
     available: true,
   },
   {
