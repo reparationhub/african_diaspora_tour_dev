@@ -225,7 +225,7 @@ export const eastAfricanSlides = [
       zoom: 1.0,
       freezed: true,
       blur: 4,
-      position: { x: -670, y: -275 },
+      position: { x: -570, y: -275 },
     },
     flags: [],
     locations: [10],
