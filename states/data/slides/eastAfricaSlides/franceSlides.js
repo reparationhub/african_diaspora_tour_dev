@@ -171,6 +171,7 @@ export const franceSlides = [
       </span>
     ),
   },
+
   {
     tourId: 3,
     type: "end",
