@@ -51,17 +51,16 @@ export default function TourStart() {
 
   // Transition effect for map
   useEffect(() => {
-    setTimeout(function () {
-      setMapState({
-        ...mapState,
-        zoom: 1,
-        position: { x: 0, y: 0 },
-        dark: 0.5,
-        blur: 0,
-        freezed: false,
-      });
-    }, 100);
-  }, []);
+    let tourId = router.query.tourId;
+    if (tourId && globalState) {
+      let { mapState } = tours.find((tour) => tour.id == tourId);
+      console.log(tours.find((tour) => tour.id == tourId));
+      console.log(mapState);
+      setTimeout(function () {
+        setMapState({ ...mapState });
+      }, 100);
+    }
+  }, [router, globalState]);
 
   return (
     <div>
