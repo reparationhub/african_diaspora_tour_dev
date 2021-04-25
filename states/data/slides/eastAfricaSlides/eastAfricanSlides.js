@@ -1,4 +1,4 @@
-export const eastAfricaSlides = [
+export const eastAfricanSlides = [
   {
     tourId: 3,
     type: "story",

@@ -1,4 +1,6 @@
 export const locations = [
+  // West african tour locations
+  //============================
   {
     id: 1,
     name: "europe",
@@ -65,6 +67,19 @@ export const locations = [
     image: "/assets/images/locations/uk.png",
     sound: "/assets/sounds/uk.mp3",
   },
+
+  {
+    id: 12,
+    name: "triangulartrade",
+    position: { x: 650, y: 150 },
+    image: "/assets/images/triangular-trade.png",
+    sound: "",
+  },
+
+  //============================
+  // East african tour locations
+  //============================
+
   {
     id: 10,
     name: "eastafrica",
@@ -80,17 +95,24 @@ export const locations = [
     sound: "",
   },
   {
-    id: 11,
+    id: 13,
     name: "france",
-    position: { x: 1430, y: 500 },
+    position: { x: 1137, y: 145 },
     image: "/assets/images/locations/france.png",
     sound: "",
   },
   {
-    id: 12,
-    name: "triangulartrade",
-    position: { x: 650, y: 150 },
-    image: "/assets/images/triangular-trade.png",
-    sound: "",
+    id: 14,
+    name: "southamerica",
+    position: { x: 420, y: 542 },
+    image: "/assets/images/locations/southamerica.png",
+    sound: "/assets/sounds/southamerica.mp3",
+  },
+  {
+    id: 15,
+    name: "usa",
+    position: { x: 117, y: 162 },
+    image: "/assets/images/locations/usa.png",
+    sound: "/assets/sounds/usa.mp3",
   },
 ];

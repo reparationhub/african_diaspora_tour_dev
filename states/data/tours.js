@@ -16,7 +16,7 @@ export const tours = [
   {
     id: 3,
     name: "East African Tour",
-    locations: [10],
+    locations: [10, 13, 14, 15],
     funFacts: [],
     darkStories: [],
     startButtons: [3],

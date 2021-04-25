@@ -1,11 +1,20 @@
-import { Box, Typography, Button, makeStyles } from "@material-ui/core";
+import {
+  Box,
+  Typography,
+  Button,
+  makeStyles,
+  CircularProgress,
+} from "@material-ui/core";
 import { useRouter } from "next/router";
+import { useState } from "react";
 
 export default function TourBrief({ brief }) {
   const classes = useStyles();
   const router = useRouter();
+  const [loading, setLoading] = useState(false);
 
   const moveTourStart = (tourId) => {
+    setLoading(true);
     router.push(`/tourstart?tourId=${tourId}`);
   };
 
@@ -29,6 +38,12 @@ export default function TourBrief({ brief }) {
             onClick={() => moveTourStart(brief.tourId)}
           >
             Start Tour
+            {loading && (
+              <CircularProgress
+                size={12}
+                style={{ marginLeft: 5, color: "black" }}
+              />
+            )}
           </Button>
         </Box>
       </Box>

@@ -1,15 +1,18 @@
-import { Box, makeStyles } from "@material-ui/core";
+import { Box, makeStyles, CircularProgress } from "@material-ui/core";
 import { useSelector } from "react-redux";
 import clsx from "clsx";
 import { v4 as uuid } from "uuid";
 import { useRouter } from "next/router";
+import { useState } from "react";
 
 export default function Menu() {
   const classes = useStyles();
   const router = useRouter();
   const { tours } = useSelector((state) => state);
+  const [loadingId, setLoadingId] = useState(null);
 
   const moveToIntro = (tourId) => {
+    setLoadingId(tourId);
     router.push(`/intro?tourId=${tourId}`);
   };
 
@@ -33,7 +36,15 @@ export default function Menu() {
               )}
               onClick={() => moveToIntro(tour.id)}
             >
-              <Box className={classes.buttonTitle}>{tour.name}</Box>
+              <Box className={classes.buttonTitle}>
+                {tour.name}
+                {tour.id === loadingId && (
+                  <CircularProgress
+                    size={14}
+                    style={{ color: "white", marginLeft: 5 }}
+                  />
+                )}
+              </Box>
               {!tour.available && (
                 <Box className={classes.buttonSubtitle}>
                   (Not yet available)
@@ -41,6 +52,12 @@ export default function Menu() {
               )}
             </Box>
           ))}
+        </Box>
+
+        <Box textAlign="center">
+          <a href="https://www.reparationhub.com" className={classes.menuLink}>
+            Reparation Hub Home
+          </a>
         </Box>
       </Box>
     </Box>
@@ -75,6 +92,15 @@ const useStyles = makeStyles((theme) => ({
   menuSubtitle: {
     fontSize: 14,
     fontWeight: "400",
+    textAlign: "center",
+    color: "#c48b4b",
+    marginTop: 5,
+    marginBottom: 30,
+    textDecoration: "underline",
+  },
+  menuLink: {
+    fontSize: 14,
+    fontWeight: "600",
     textAlign: "center",
     color: "#c48b4b",
     marginTop: 5,
