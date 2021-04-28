@@ -1,11 +1,11 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Box, makeStyles } from "@material-ui/core";
 import clsx from "clsx";
 
 export default function Location({ location, isLocationClickable, moveSlide }) {
   const classes = useStyles();
   const { image, position } = location;
-
+  const [audio, setAudio] = useState(new Audio(location.sound));
   // useEffect(() => {
   //   console.log(location);
   // }, [location]);
@@ -18,6 +18,17 @@ export default function Location({ location, isLocationClickable, moveSlide }) {
     }
   };
 
+  const playSound = () => {
+    if (location.sound) {
+      audio.play();
+    }
+  };
+
+  const stopSound = () => {
+    audio.pause();
+    audio.currentTime = 0;
+  };
+
   return (
     <Box
       className={clsx(
@@ -28,6 +39,8 @@ export default function Location({ location, isLocationClickable, moveSlide }) {
       )}
       style={{ top: position.y, left: position.x }}
       onClick={handleLocationClick}
+      onMouseOver={playSound}
+      onMouseLeave={stopSound}
     >
       <img src={image} alt="" />
     </Box>

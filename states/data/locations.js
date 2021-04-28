@@ -4,7 +4,7 @@ export const locations = [
   {
     id: 1,
     name: "europe",
-    position: { x: 1091, y: 71 },
+    position: { x: 1091, y: 145 },
     image: "/assets/images/locations/europe.png",
     sound: "",
   },
@@ -76,43 +76,51 @@ export const locations = [
     sound: "",
   },
 
+  {
+    id: 16,
+    name: "wholeeurope",
+    position: { x: 650, y: 150 },
+    image: "/assets/images/locations/wholeeurope.png",
+    sound: "",
+  },
+
   //============================
   // East african tour locations
   //============================
 
   {
     id: 10,
-    name: "eastafrica",
-    position: { x: 1365, y: 435 },
-    image: "/assets/images/locations/eastafrica.png",
-    sound: "",
+    name: "egypt",
+    position: { x: 1386, y: 346 },
+    image: "/assets/images/locations/egypt.png",
+    sound: "/assets/sounds/egypt.mp3",
   },
   {
     id: 11,
-    name: "sudan",
-    position: { x: 1430, y: 500 },
-    image: "/assets/images/locations/sudan.png",
-    sound: "",
+    name: "saudiarabia",
+    position: { x: 1475, y: 341 },
+    image: "/assets/images/locations/saudiarabia.png",
+    sound: "assets/sounds/saudiarabia.mp3",
   },
   {
     id: 13,
     name: "france",
     position: { x: 1137, y: 145 },
     image: "/assets/images/locations/france.png",
-    sound: "",
+    sound: "assets/sounds/france.mp3",
   },
   {
     id: 14,
-    name: "southamerica",
-    position: { x: 420, y: 542 },
-    image: "/assets/images/locations/southamerica.png",
-    sound: "/assets/sounds/southamerica.mp3",
+    name: "westafrica",
+    position: { x: 1008, y: 387 },
+    image: "/assets/images/locations/westafrica.png",
+    sound: "/assets/sounds/westafrica.mp3",
   },
   {
     id: 15,
-    name: "usa",
-    position: { x: 117, y: 162 },
-    image: "/assets/images/locations/usa.png",
-    sound: "/assets/sounds/usa.mp3",
+    name: "portugal",
+    position: { x: 1092, y: 236 },
+    image: "/assets/images/locations/portugal.png",
+    sound: "assets/sounds/portugal.mp3",
   },
 ];

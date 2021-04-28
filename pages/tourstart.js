@@ -54,8 +54,6 @@ export default function TourStart() {
     let tourId = router.query.tourId;
     if (tourId && globalState) {
       let { mapState } = tours.find((tour) => tour.id == tourId);
-      console.log(tours.find((tour) => tour.id == tourId));
-      console.log(mapState);
       setTimeout(function () {
         setMapState({ ...mapState });
       }, 100);

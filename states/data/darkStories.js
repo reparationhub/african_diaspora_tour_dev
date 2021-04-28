@@ -1,4 +1,7 @@
 export const darkStories = [
+  //=========================
+  // West Africa Dark Stories
+  //=========================
   {
     id: 1,
     name: "canada",
@@ -123,6 +126,51 @@ export const darkStories = [
         Netherlands as a result of the transatlantic slave trade. Today, there
         are roughly the same amount of descendants of African enslaved people
         residing in the Netherlands.
+      </span>
+    ),
+  },
+
+  //=========================
+  // East Africa Dark Stories
+  //=========================
+
+  {
+    id: 11,
+    name: "egypt",
+    position: { x: 1410, y: 360 },
+    description: (
+      <span>
+        360 East African slaves were traded annually from Egypt to Saudia arab
+      </span>
+    ),
+  },
+  {
+    id: 12,
+    name: "tanzania",
+    position: { x: 1490, y: 745 },
+    description: (
+      <span>Every year, about 40,000-50,000 slaves were taken to Zanzibar</span>
+    ),
+  },
+  {
+    id: 13,
+    name: "france",
+    position: { x: 1185, y: 150 },
+    description: (
+      <span>
+        46 ships, carrying more than 16,000 slaves, were taken to St Domingue.
+      </span>
+    ),
+  },
+  {
+    id: 14,
+    name: "portugal",
+    position: { x: 1065, y: 230 },
+    description: (
+      <span>
+        Angolans in Portugal form the country's second-largest group of African
+        migrants, after Cape Verdeans. In 2006, official statistics showed
+        28,854 legal Angolan residents in Portugal.
       </span>
     ),
   },

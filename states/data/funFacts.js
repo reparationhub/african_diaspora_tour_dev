@@ -1,4 +1,7 @@
 export const funFacts = [
+  // ======================
+  // West Africa fun facts
+  //=======================
   {
     id: 1,
     name: "canada",
@@ -64,6 +67,70 @@ export const funFacts = [
         The population of west africa is roughly 400 million people -- that’s
         roughly 6.5 times greater than south african population of 60 million
         people.
+      </span>
+    ),
+  },
+
+  // ======================
+  // West Africa fun facts
+  //=======================
+  {
+    id: 7,
+    name: "tanzania",
+    position: { x: 1460, y: 710 },
+    description: (
+      <span>
+        Tanzania is home to two renowned tourism destinations - Africa's highest
+        mountain, Kilimanjaro, and wildlife-rich national parks such as the
+        Serengeti - but has become a target for poachers.
+      </span>
+    ),
+  },
+  {
+    id: 8,
+    name: "sudanegypt",
+    position: { x: 1420, y: 430 },
+    description: (
+      <span>
+        Nubia was home to some of Africa's earliest kingdoms. Known for rich
+        deposits of gold, Nubia was also the gateway through which luxury
+        products like incense, ivory, and ebony traveled from their source in
+        sub-Saharan Africa to the civilizations of Egypt and the Mediterranean.
+      </span>
+    ),
+  },
+  {
+    id: 9,
+    name: "saudiarabia",
+    position: { x: 1575, y: 450 },
+    description: (
+      <span>
+        Ninety-five percent of Saudi Arabia is considered a desert or
+        semidesert, and it has some of the largest desert areas, including An
+        Nafud and Rub al-Khali.
+      </span>
+    ),
+  },
+  {
+    id: 10,
+    name: "france",
+    position: { x: 1175, y: 200 },
+    description: (
+      <span>
+        With over nine million visitors annually, the Louvre Museum in Paris
+        France is the most popular museum on the planet. It’s famously home to
+        the Mona Lisa, but over 35,000 pieces of art are on display.
+      </span>
+    ),
+  },
+  {
+    id: 11,
+    name: "portugal",
+    position: { x: 1055, y: 270 },
+    description: (
+      <span>
+        Portugal is the oldest country in Europe and home to the world's oldest
+        bookstore in Lisbon.
       </span>
     ),
   },
