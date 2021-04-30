@@ -72,7 +72,7 @@ export const funFacts = [
   },
 
   // ======================
-  // West Africa fun facts
+  // East Africa fun facts
   //=======================
   {
     id: 7,

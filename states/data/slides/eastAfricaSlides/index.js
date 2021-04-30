@@ -1,4 +1,4 @@
 import { egyptSlides } from "./egyptSlides";
-import { franceSlides } from "./franceSlides";
+import { saudiarabiaSlides } from "./saudiarabiaSlides";
 
-export const eastAfricaSlides = [...egyptSlides, ...franceSlides];
+export const eastAfricaSlides = [...egyptSlides, ...saudiarabiaSlides];

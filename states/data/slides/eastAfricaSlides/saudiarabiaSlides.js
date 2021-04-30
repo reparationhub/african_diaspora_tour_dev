@@ -1,12 +1,14 @@
-export const franceSlides = [
+export const saudiarabiaSlides = [
   {
     tourId: 3,
     type: "stop",
-    title: "1ST STOP",
+    title: "2ND STOP",
+    name: "",
     description: (
       <span>
-        Click on the map of <span className="highlighted">France</span> to see
-        how africans disappeared into the diaspora.
+        Let's dive in a take a look at the role of Omani Arabs in East African
+        Slavery. Click on the map of{" "}
+        <span className="highlighted">Saudia Arabia</span> to proceed.
       </span>
     ),
     mapState: {
@@ -14,39 +16,43 @@ export const franceSlides = [
       zoom: 1.5,
       freezed: true,
       blur: 4,
-      position: { x: -200, y: 200 },
+      position: { x: -600, y: 0 },
     },
-    locations: [13],
+    locations: [11],
     darkStories: [],
-    funFacts: [],
+    funFacts: [9],
     flags: [],
   },
   {
     tourId: 3,
     type: "story",
-    name: "france",
+    name: "saudiarabia",
     mapState: {
       dark: 0.8,
       zoom: 1.3,
       freezed: true,
       blur: 4,
-      position: { x: -180, y: 100 },
+      position: { x: -600, y: 0 },
     },
     flags: [],
-    locations: [13],
+    locations: [11],
     darkStories: [],
-    funFacts: [],
+    funFacts: [9],
     image: "/assets/images/slide-france/1.png",
     title: "",
     description: (
       <span>
-        Ships sailed from French ports such as Bordeaux and Nantes to buy slaves
-        in East Africa.
-        <br />
-        <br />
-        The slaves were then taken to St Domingue and exchanged for tropical
-        produce like sugar, coffee and indigo. The size of these vessels grew in
-        the 1780s and some had the capacity to carry up to 1000 slaves.
+        The East African slave trade was also enormous in size and equally
+        horrible compared to the Atlantic slave trade. Less slaves perished
+        during the sea transport in the Dhows as the transport lasted fewer days
+        than on the Atlantic trade. However large numbers of slaves perished
+        when walking (often carrying ivory tusks or other goods) from the
+        interior to the East African harbours for transport. During the 16th and
+        17th century the East African slave-trade was controlled by the
+        Portuguese with African and Arab support. The Omani Arabs controlled the
+        slave-trade during the 18th and 19th century with Zanzibar being the
+        main slave-market. Smaller slave markets existed in places like Muscat
+        and Mukalla.
       </span>
     ),
   },
