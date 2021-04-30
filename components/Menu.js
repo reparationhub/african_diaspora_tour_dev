@@ -56,7 +56,7 @@ export default function Menu() {
 
         <Box textAlign="center">
           <a href="https://www.reparationhub.com" className={classes.menuLink}>
-            Reparation Hub Home
+            Go To Reparation Hub Website
           </a>
         </Box>
       </Box>
@@ -96,13 +96,13 @@ const useStyles = makeStyles((theme) => ({
     color: "#c48b4b",
     marginTop: 5,
     marginBottom: 30,
-    textDecoration: "underline",
+    // textDecoration: "underline",
   },
   menuLink: {
     fontSize: 14,
     fontWeight: "600",
     textAlign: "center",
-    color: "#c48b4b",
+    color: "green",
     marginTop: 5,
     marginBottom: 30,
     textDecoration: "underline",

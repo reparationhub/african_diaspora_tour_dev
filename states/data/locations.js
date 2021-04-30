@@ -79,7 +79,7 @@ export const locations = [
   {
     id: 16,
     name: "wholeeurope",
-    position: { x: 650, y: 150 },
+    position: { x: 1091, y: 71 },
     image: "/assets/images/locations/wholeeurope.png",
     sound: "",
   },
@@ -122,5 +122,12 @@ export const locations = [
     position: { x: 1092, y: 236 },
     image: "/assets/images/locations/portugal.png",
     sound: "assets/sounds/portugal.mp3",
+  },
+  {
+    id: 17,
+    name: "sudan",
+    position: { x: 1365, y: 436 },
+    image: "/assets/images/locations/sudan.png",
+    sound: "",
   },
 ];

@@ -11,6 +11,8 @@ export default function Location({ location, isLocationClickable, moveSlide }) {
   // }, [location]);
 
   const handleLocationClick = () => {
+    audio.pause();
+    audio.currentTime = 0;
     if (isLocationClickable) {
       moveSlide("next");
     } else {
@@ -19,7 +21,7 @@ export default function Location({ location, isLocationClickable, moveSlide }) {
   };
 
   const playSound = () => {
-    if (location.sound) {
+    if (location.sound && !isLocationClickable) {
       audio.play();
     }
   };

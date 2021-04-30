@@ -19,7 +19,7 @@ export const europeSlides = [
       blur: 4,
       position: { x: -200, y: 0 },
     },
-    locations: [1],
+    locations: [16],
     darkStories: [],
     funFacts: [],
     flags: [],
