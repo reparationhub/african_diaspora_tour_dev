@@ -29,7 +29,7 @@ export const tours = [
     startButtons: [3],
     mapState: {
       zoom: 1,
-      position: { x: -350, y: 0 },
+      position: { x: -460, y: 0 },
       dark: 0.5,
       blur: 0,
       freezed: false,

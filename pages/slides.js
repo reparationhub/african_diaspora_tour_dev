@@ -14,6 +14,7 @@ import IntroSlide from "components/IntroSlide";
 import StorySlide from "components/StorySlide";
 import StopSlide from "components/StopSlide";
 import TourEndSlide from "components/TourEndSlide";
+import BackButton from "components/BackButton";
 
 export default function TourStart() {
   const classes = useStyles();
@@ -196,6 +197,8 @@ export default function TourStart() {
               {...{ moveSlide, slideNavNumbers }}
             />
           )}
+
+          <BackButton />
         </Box>
       </main>
     </div>

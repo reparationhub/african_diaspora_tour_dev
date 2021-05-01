@@ -10,6 +10,7 @@ import { v4 as uuid } from "uuid";
 import FuncFactButton from "components/FunFactButton";
 import DarkStoryButton from "components/DarkStoryButton";
 import StartButton from "components/StartButton";
+import BackButton from "components/BackButton";
 
 export default function TourStart() {
   const classes = useStyles();
@@ -90,6 +91,7 @@ export default function TourStart() {
                 <StartButton key={uuid()} {...{ startButton }} />
               ))}
           </Map>
+          <BackButton />
         </Box>
       </main>
     </div>
