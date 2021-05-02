@@ -15,7 +15,7 @@ export default function TourEnd() {
         </Box>
         <Box mb={2}>
           <h3 className={classes.title}>
-            Congratulation, you have finished the tour
+            Congratulation, you have finished the tour{" "}
           </h3>
         </Box>
         <Box mb={3}>
