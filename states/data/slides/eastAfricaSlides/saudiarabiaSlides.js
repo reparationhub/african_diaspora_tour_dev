@@ -38,7 +38,7 @@ export const saudiarabiaSlides = [
     locations: [11],
     darkStories: [],
     funFacts: [9],
-    image: "/assets/images/slide-france/1.png",
+    image: "/assets/images/slide-saudiarabia/1.jpg",
     title: "",
     description: (
       <span>
@@ -59,140 +59,150 @@ export const saudiarabiaSlides = [
   {
     tourId: 3,
     type: "story",
-    name: "france",
+    name: "saudiarabia",
     mapState: {
       dark: 0.8,
       zoom: 1.2,
       freezed: true,
       blur: 4,
-      position: { x: -170, y: 105 },
+      position: { x: -620, y: 105 },
     },
     flags: [],
-    locations: [13],
+    locations: [11],
     darkStories: [],
-    funFacts: [],
-    image: "/assets/images/slide-france/2.png",
+    funFacts: [9],
+    image: "/assets/images/slide-saudiarabia/2.png",
     title: "",
     description: (
       <span>
-        slave ships carried large crews and the firepower needed to suppress any
-        resistance.
-        <br />
-        <br />
-        The East Africa slave trade reached its peak in 1789-90 when about 46
-        ships, carrying more than 16,000 slaves, circumnavigated the Cape.
-        Almost all were bound for the sugar and coffee plantations of northern
-        St Domingue.
+        Already during 1822 Sultan Said bin Sultan, Sultan of Oman & Zanzibar
+        and a faithful ally of England, signed the Moresby treaty, which
+        supposedly put an end to the export of slaves to "Christian" markets.
+        Nevertheless during the early 19th century the slave-trade increased
+        partly due to the need for workers in the new clove plantations on
+        Zanzibar island and great demand from French! colonies. Between 1850 and
+        1873 at least 173000 slaves were sold via Zanzibar. According Wellsted
+        around 4000 slaves were dispatched annually through the Muscat slave
+        market in the 1830´s. It is estimated that well over 1.6 million slaves
+        were traded from East Africa during the 19th century. The Arab slave
+        trade was actively discouraged and contained by the British (see several
+        of the treaties and the hunting for slave dhows by the British Navy) .
+        With plentiful very cheap and flexible labourers (coolies) from India
+        this also became economically possible for the British.
       </span>
     ),
   },
   {
     tourId: 3,
     type: "story",
-    name: "france",
+    name: "saudiarabia",
     mapState: {
       dark: 0.8,
       zoom: 1.1,
       freezed: true,
       blur: 4,
-      position: { x: -185, y: 40 },
+      position: { x: -600, y: 60 },
     },
     flags: [],
-    locations: [13],
+    locations: [11],
     darkStories: [],
-    funFacts: [],
-    image: "/assets/images/slide-france/3.png",
+    funFacts: [9],
+    image: "/assets/images/slide-saudiarabia/3.jpg",
     title: "",
     description: (
       <span>
-        Some French ships sold their entire cargo of slaves at the Cape while
-        others provided the settlement with sugar, coffee and rice, and an
-        assortment of commodities, most notably ivory and gold, to be shipped
-        northwards to Europe.
+        During the first world war 1914-1918 a small army led by the German Von
+        Lettow of 3000 Germans and 11000 very disciplined local Ashkari soldiers
+        kept a force of 100.000 British and Belgian soldiers very busy in East
+        Africa, with their tactics of "asymmetric warfare", and they only
+        capitulated as late as November 25 1918! The German troops received a
+        Heroes welcome in Germany on their return. After the first world-war the
+        Germans were kicked out of East Africa by the British. In 1906 the
+        banker Bernard Dernburg became head of the colonial office. Albert
+        Rechenberg became governor. Measures to treat the black population with
+        more respect were introduced. However the main focus as to make the
+        colony more economically viable. The increasing arrival of German
+        settlers resulted in conflicts regarding landownership. The Germans
+        introduced major improvements in infrastructure including railway
+        connections and also started education programs for the local children.
+        After the first world-war the colony was taken over by the British.
+        During the complete period of its existence the German colony had never
+        been economically viable
       </span>
     ),
   },
   {
     tourId: 3,
     type: "story",
-    name: "france",
+    name: "saudiarabia",
     mapState: {
       dark: 0.8,
       zoom: 1,
       freezed: true,
       blur: 4,
-      position: { x: 0, y: -200 },
+      position: { x: -550, y: -80 },
     },
     flags: [],
-    locations: [14],
+    locations: [11],
     darkStories: [],
-    funFacts: [],
-    image: "/assets/images/slide-france/4.png",
+    funFacts: [9],
+    image: "/assets/images/slide-saudiarabia/4.jpg",
     title: "",
     description: (
       <span>
-        The plundering and burning of the sugar plantations in France’s
-        wealthiest colony had destroyed the established market for East African
-        slaves in the Americas.
+        Of particular interest was the role of Tippu Tip: Just like an Omani
+        Arab guided in the 15th century Vasco da Gama to Asia it was Tippu Tip
+        who guided Livingstone and others to the interior of East Africa. Tippu
+        Tip was also the most important (and richest) slave and ivory trader of
+        East Africa in the 19th century. Apart from the British also the Germans
+        made keenly use of his influence and services..... His fascinating
+        memoirs were translated from Swahili into German and published by the
+        German Heinrich Brode.
         <br />
         <br />
-        The Sao José was thus a pioneer, hoping to find a new market for East
-        African slaves in Brazil. This was no easy matter, as traders in Angola
-        and the Congo monopolised the sale of slaves to Portuguese America.
+        For a very interesting Omani perspective on slavery read chapter XXV of
+        "Memoirs of an Arabian princess" by Bibi Salme 1888 published by Ward &
+        Downey. She also contrasts Christian and Omani views on slavery.
       </span>
     ),
   },
   {
     tourId: 3,
     type: "story",
-    name: "france",
+    name: "saudiarabia",
     mapState: {
       dark: 0.8,
       zoom: 1.3,
       freezed: true,
       blur: 4,
-      position: { x: 200, y: 100 },
+      position: { x: -565, y: -100 },
     },
     flags: [],
-    locations: [15],
+    locations: [11],
     darkStories: [],
-    funFacts: [],
-    image: "/assets/images/slide-france/5.png",
+    funFacts: [9],
+    image: "/assets/images/slide-saudiarabia/5.jpg",
     title: "",
     description: (
       <span>
-        Middle Passage, the forced voyage of enslaved Africans across the
-        Atlantic Ocean to the New World. It was one leg of the triangular trade
-        route that took goods (such as knives, guns, ammunition, cotton cloth,
-        tools, and brass dishes) from Europe to Africa, Africans to work as
-        slaves in the Americas and West Indies, and items, mostly raw materials,
-        produced on the plantations (sugar, rice, tobacco, indigo, rum, and
-        cotton) back to Europe.
+        Regarding slavery in Oman. In 1900 in his book "Cradle of Islam" p 85
+        S.M Zwemer writes: The town of Sur (in Oman) has always been a place of
+        trade and enterprise and its buggalows visit India, Zanzibar and the
+        Persian Gulf. The people are all bold sailors since many generations.
+        But Sur also has the unenviable reputation of being now the centre of
+        illicit slave-trading" During 1884 and 1902 the (large scale) traffic in
+        slaves increased somewhat as many slaving ships operated under the
+        French flag (!!), which was rather indiscriminately granted to various
+        Arab and Indian Ocean captains......
         <br />
         <br />
-        From about 1518 to the mid-19th century, millions of African men, women,
-        and children made the 21-to-90-day voyage aboard grossly overcrowded
-        sailing ships manned by crews mostly from Great Britain, the
-        Netherlands, Portugal, and France.
+        In 1902 the large scale transport of slaves on the Indian Ocean ended
+        when the Portuguese captured before Mozambique 11 ships with 114 Omani
+        from the town of Sur carrying 725 slaves. The slavers were sentenced to
+        25 years in prison in Angola - news which converted Sur into a scene of
+        wailing and lamentation. It was news which also marked the end of Sur´s
+        importance as a slave port
       </span>
     ),
-  },
-  {
-    tourId: 3,
-    type: "end",
-    name: "",
-    image: "",
-    description: <span></span>,
-    mapState: {
-      dark: 0.7,
-      zoom: 1,
-      freezed: true,
-      blur: 4,
-      position: { x: 0, y: 0 },
-    },
-    locations: [],
-    darkStories: [],
-    funFacts: [],
-    flags: [],
   },
 ];

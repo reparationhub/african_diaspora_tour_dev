@@ -71,6 +71,9 @@ const useStyles = makeStyles((theme) => ({
     fontSize: 16,
     fontWeight: 700,
     textAlign: "justify",
+    // maxHeight: 250,
+    // overflowY: "scroll",
+    //padding: 15,
   },
 
   slideAction: {
@@ -114,9 +117,12 @@ const useStyles = makeStyles((theme) => ({
   },
 
   slideImage: {
+    display: "flex",
+    justifyContent: "center",
     "& img": {
       borderRadius: 60,
       width: "100%",
+      maxHeight: 300,
     },
   },
 }));
