@@ -92,7 +92,7 @@ export const locations = [
     id: 10,
     name: "egypt",
     position: { x: 1386, y: 346 },
-    image: "/assets/images/locations/egypt.png",
+    image: "/assets/images/locations/egypt1.png",
     sound: "/assets/sounds/egypt.mp3",
   },
   {
