@@ -41,7 +41,7 @@ export default function Location({ location, isLocationClickable, moveSlide }) {
       )}
       style={{ top: position.y, left: position.x }}
       onClick={handleLocationClick}
-      onMouseOver={playSound}
+      onMouseEnter={playSound}
       onMouseLeave={stopSound}
     >
       <img src={image} alt="" />

@@ -7,6 +7,7 @@ import { darkStories } from "./data/darkStories";
 import { startButtons } from "./data/startButtons";
 import { flags } from "./data/flags";
 import { slides } from "./data/slides";
+import { arrows } from "./data/arrows";
 
 export const globalState = {
   mapInitialState,
@@ -18,4 +19,5 @@ export const globalState = {
   startButtons,
   flags,
   slides,
+  arrows,
 };

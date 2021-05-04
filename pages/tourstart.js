@@ -11,6 +11,7 @@ import FuncFactButton from "components/FunFactButton";
 import DarkStoryButton from "components/DarkStoryButton";
 import StartButton from "components/StartButton";
 import BackButton from "components/BackButton";
+import Arrow from "components/Arrow";
 
 export default function TourStart() {
   const classes = useStyles();
@@ -22,6 +23,7 @@ export default function TourStart() {
   const [mapState, setMapState] = useState(mapInitialState);
   const [activeDarkStories, setActiveDarkStories] = useState([]);
   const [activeStartButtons, setActiveStartButtons] = useState([]);
+  const [activeArrows, setActiveArrows] = useState([]);
 
   // Utility function to update local states according to the tour cnfiguration
   const findAndSetLocalState = (property) => {
@@ -39,6 +41,7 @@ export default function TourStart() {
       if (property === "funFacts") setActiveFunFacts(active);
       if (property === "darkStories") setActiveDarkStories(active);
       if (property === "startButtons") setActiveStartButtons(active);
+      if (property === "arrows") setActiveArrows(active);
     }
   };
 
@@ -48,6 +51,7 @@ export default function TourStart() {
     findAndSetLocalState("funFacts");
     findAndSetLocalState("darkStories");
     findAndSetLocalState("startButtons");
+    findAndSetLocalState("arrows");
   }, [router, globalState]);
 
   // Transition effect for map
@@ -89,6 +93,11 @@ export default function TourStart() {
             {activeStartButtons.length > 0 &&
               activeStartButtons.map((startButton) => (
                 <StartButton key={uuid()} {...{ startButton }} />
+              ))}
+            {/* Rendering arrows */}
+            {activeArrows.length > 0 &&
+              activeArrows.map((arrow) => (
+                <Arrow key={uuid()} {...{ arrow }} />
               ))}
           </Map>
           <BackButton />

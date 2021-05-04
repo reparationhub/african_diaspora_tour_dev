@@ -20,7 +20,7 @@ export default function Flag({ flag }) {
 const useStyles = makeStyles((theme) => ({
   flagWrapper: {
     position: "absolute",
-    zIndex: 10,
+    zIndex: 16,
   },
   flagImage: {
     width: 100,

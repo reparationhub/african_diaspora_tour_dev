@@ -140,7 +140,7 @@ export const darkStories = [
     position: { x: 1410, y: 360 },
     description: (
       <span>
-        360 East African slaves were traded annually from Egypt to Saudia arab
+        360 East African slaves were traded annually from Egypt to Saudia arab.
       </span>
     ),
   },
@@ -149,7 +149,9 @@ export const darkStories = [
     name: "tanzania",
     position: { x: 1490, y: 745 },
     description: (
-      <span>Every year, about 40,000-50,000 slaves were taken to Zanzibar</span>
+      <span>
+        Every year, about 40,000-50,000 slaves were taken to Zanzibar.
+      </span>
     ),
   },
   {

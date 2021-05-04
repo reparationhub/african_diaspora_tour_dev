@@ -61,10 +61,17 @@ const useStyles = makeStyles((theme) => ({
     fontSize: 32,
   },
   dialogText: {
+    position: "absolute",
     fontFamily: "Special Elite",
     lineHeight: 1.4,
     fontSize: 18,
     fontWeight: 600,
     color: "#763f2f",
+    top: "50%",
+    left: "50%",
+    transform: `translate(-50%, -50%)`,
+    margin: 0,
+    width: "100%",
+    padding: 60,
   },
 }));

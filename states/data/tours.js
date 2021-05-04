@@ -11,6 +11,7 @@ export const tours = [
     funFacts: [1, 2, 3, 4, 5, 6],
     darkStories: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     startButtons: [2],
+    arrows: [1],
     mapState: {
       zoom: 1,
       position: { x: 0, y: 0 },
@@ -23,10 +24,11 @@ export const tours = [
   {
     id: 3,
     name: "East African Tour",
-    locations: [10, 11, 13, 14, 15, 17],
+    locations: [10, 11, 13, 14, 15],
     funFacts: [7, 8, 9, 10, 11],
     darkStories: [11, 12, 13, 14],
     startButtons: [3],
+    arrows: [2],
     mapState: {
       zoom: 1,
       position: { x: -460, y: 0 },
@@ -42,3 +44,4 @@ export const tours = [
     availabel: false,
   },
 ];
+//

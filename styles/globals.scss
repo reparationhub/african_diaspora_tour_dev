@@ -138,3 +138,11 @@ a {
   animation-direction: alternate;
   animation-timing-function: ease-in;
 }
+
+.map-arrow {
+  animation-name: glow;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}

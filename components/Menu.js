@@ -32,7 +32,8 @@ export default function Menu() {
               key={uuid()}
               className={clsx(
                 classes.button,
-                !tour.available ? "inactive" : ""
+                tour.id === 2 ? "highlighted" : "",
+                !tour.available ? "disableclick" : ""
               )}
               onClick={() => moveToIntro(tour.id)}
             >
@@ -49,6 +50,9 @@ export default function Menu() {
                 <Box className={classes.buttonSubtitle}>
                   (Not yet available)
                 </Box>
+              )}
+              {tour.available && tour.id !== 2 && (
+                <Box className={classes.buttonSubtitle}>(Available)</Box>
               )}
             </Box>
           ))}
@@ -115,9 +119,13 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: 60,
     cursor: "pointer",
     transition: "all 0.1s ease-out",
+    opacity: 0.4,
 
-    "&.inactive": {
-      opacity: "0.4",
+    "&.highlighted": {
+      opacity: 1,
+    },
+
+    "&.disableclick": {
       pointerEvents: "none",
     },
 

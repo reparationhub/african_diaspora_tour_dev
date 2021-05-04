@@ -111,10 +111,10 @@ export const locations = [
   },
   {
     id: 14,
-    name: "westafrica",
-    position: { x: 1008, y: 387 },
-    image: "/assets/images/locations/westafrica.png",
-    sound: "/assets/sounds/westafrica.mp3",
+    name: "eastafrica",
+    position: { x: 1366, y: 435 },
+    image: "/assets/images/locations/eastafrica.png",
+    sound: "/assets/sounds/eastafrica.mp3",
   },
   {
     id: 15,
