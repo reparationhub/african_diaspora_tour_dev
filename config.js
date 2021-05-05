@@ -1,1 +1,1 @@
-let production_uri = "https://african-diaspora-tour.vercel.app/";
+let production_uri = "https://reparation-hub-african-tours.vercel.app/";
