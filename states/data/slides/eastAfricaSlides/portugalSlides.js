@@ -6,7 +6,7 @@ export const portugalSlides = [
     name: "",
     description: (
       <span>
-        Let's find out the role of Portugal played in east African Slavery.
+        Let's find out the role that Portugal played in east African slavery.
         Click on the map of <span className="highlighted"> Portugal</span> to
         proceed.
       </span>
