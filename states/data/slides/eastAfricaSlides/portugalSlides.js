@@ -6,16 +6,17 @@ export const portugalSlides = [
     name: "",
     description: (
       <span>
-        Let's find out the role Portual played in east African Slavery. Click on
-        the map of <span className="highlighted"> Portugal</span> to proceed.
+        Let's find out the role of Portugal played in east African Slavery.
+        Click on the map of <span className="highlighted"> Portugal</span> to
+        proceed.
       </span>
     ),
     mapState: {
       dark: 0.7,
-      zoom: 1.5,
+      zoom: 1.6,
       freezed: true,
       blur: 4,
-      position: { x: -200, y: 150 },
+      position: { x: -150, y: 150 },
     },
     locations: [15],
     darkStories: [14],
@@ -40,10 +41,10 @@ export const portugalSlides = [
     ),
     mapState: {
       dark: 0.7,
-      zoom: 1.4,
+      zoom: 1.5,
       freezed: true,
       blur: 4,
-      position: { x: -200, y: 150 },
+      position: { x: -150, y: 130 },
     },
     locations: [15],
     darkStories: [14],
@@ -65,10 +66,10 @@ export const portugalSlides = [
     ),
     mapState: {
       dark: 0.7,
-      zoom: 1.35,
+      zoom: 1.4,
       freezed: true,
       blur: 4,
-      position: { x: -170, y: 150 },
+      position: { x: -150, y: 110 },
     },
     locations: [15],
     darkStories: [14],
@@ -100,10 +101,10 @@ export const portugalSlides = [
     ),
     mapState: {
       dark: 0.7,
-      zoom: 1.25,
+      zoom: 1.3,
       freezed: true,
       blur: 4,
-      position: { x: -170, y: 50 },
+      position: { x: -150, y: 90 },
     },
     locations: [15],
     darkStories: [14],
@@ -131,10 +132,10 @@ export const portugalSlides = [
     ),
     mapState: {
       dark: 0.7,
-      zoom: 1.15,
+      zoom: 1.2,
       freezed: true,
       blur: 4,
-      position: { x: -120, y: 30 },
+      position: { x: -150, y: 70 },
     },
     locations: [15],
     darkStories: [14],
@@ -156,10 +157,10 @@ export const portugalSlides = [
     ),
     mapState: {
       dark: 0.7,
-      zoom: 1,
+      zoom: 1.1,
       freezed: true,
       blur: 4,
-      position: { x: -100, y: 0 },
+      position: { x: -150, y: 50 },
     },
     locations: [15],
     darkStories: [14],
@@ -177,7 +178,7 @@ export const portugalSlides = [
       zoom: 1,
       freezed: true,
       blur: 4,
-      position: { x: 0, y: 0 },
+      position: { x: -150, y: -30 },
     },
     locations: [],
     darkStories: [],

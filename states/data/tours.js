@@ -24,14 +24,14 @@ export const tours = [
   {
     id: 3,
     name: "East African Tour",
-    locations: [10, 11, 13, 14, 15],
+    locations: [10, 11, 13, 14, 15, 18, 19],
     funFacts: [7, 8, 9, 10, 11],
     darkStories: [11, 12, 13, 14],
     startButtons: [3],
     arrows: [2],
     mapState: {
       zoom: 1,
-      position: { x: -460, y: 0 },
+      position: { x: 0, y: 0 },
       dark: 0.5,
       blur: 0,
       freezed: false,

@@ -130,4 +130,18 @@ export const locations = [
     image: "/assets/images/locations/sudan.png",
     sound: "",
   },
+  {
+    id: 18,
+    name: "brazil",
+    position: { x: 490, y: 619 },
+    image: "/assets/images/locations/brazil.png",
+    sound: "",
+  },
+  {
+    id: 19,
+    name: "usa",
+    position: { x: 117, y: 162 },
+    image: "/assets/images/locations/usa.png",
+    sound: "",
+  },
 ];

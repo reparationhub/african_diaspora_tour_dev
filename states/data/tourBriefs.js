@@ -39,15 +39,6 @@ export const tourBriefs = [
         created.
         <br />
         <br />
-        East Africa was a late participant in the transatlantic slave trade. It
-        was only in the 1770s that a regular trade in slaves to the French
-        islands of Mauritius and Réunion began from points on the East African
-        coast. Small numbers of slaves had been carried around the Cape for more
-        than a century. But as planters on St Domingue cried out for labour,
-        this trade became more profitable and systematic, particularly as the
-        French king agreed to subsidise the shipment of slaves to the island.
-        <br />
-        <br />
         In this journey, we will explore the history of slavery in East Africa,
         you will explore the rigorous environment of slave trade in East Africa.
       </span>
