@@ -134,4 +134,62 @@ export const funFacts = [
       </span>
     ),
   },
+
+  // ======================
+  // South Africa fun facts
+  //=======================
+
+  {
+    id: 12,
+    name: "netherlands",
+    position: { x: 1190, y: 90 },
+    description: <span>Dutch men are the tallest in the world.</span>,
+  },
+
+  {
+    id: 13,
+    name: "india",
+    position: { x: 1850, y: 420 },
+    description: (
+      <span>
+        India was the first country to develop extraction and purifying
+        techniques of sugar. Many visitors from abroad learnt the refining and
+        cultivation of sugar from India.
+      </span>
+    ),
+  },
+
+  {
+    id: 14,
+    name: "southafrica",
+    position: { x: 1380, y: 860 },
+    description: (
+      <span>
+        South Africa is the only country in the world with three capital cities:
+        Cape Town, Pretoria and Bloemfontein.
+      </span>
+    ),
+  },
+
+  {
+    id: 15,
+    name: "indonesia",
+    position: { x: 2200, y: 680 },
+    description: (
+      <span>
+        Constructed during the 9th century, the Borobudur Temple, located in
+        Indonesia is the world’s largest Buddhist Temple.
+      </span>
+    ),
+  },
+  {
+    id: 16,
+    name: "madagaskar",
+    position: { x: 1570, y: 830 },
+    description: (
+      <span>
+        Madagascar is home to 70 species of lemurs found nowhere else on earth.
+      </span>
+    ),
+  },
 ];

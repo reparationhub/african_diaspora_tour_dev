@@ -44,4 +44,25 @@ export const tourBriefs = [
       </span>
     ),
   },
+  {
+    tourId: 4,
+    name: "The South African Slave Trade",
+    details: (
+      <span>
+        Slavery in South Africa began in the agricultural settlements of the
+        Boers economically dislocated the pastoral Khoikhoi in Table Bay, who
+        were forced to serve as servants to the Dutch due to their loss of
+        grazing land. The Dutch colonists additionally imported slaves from
+        Portuguese Mozambique, French Madagascar, and Dutch India beginning in
+        1652 at a time when Jan van Riebeeck, the representative of the Dutch
+        East India Company (the VOC), arrived in Cape Town to set up a
+        refreshment station.
+        <br />
+        <br />
+        In this journey, we will investigate the historical backdrop of slavery
+        in South Africa, you will investigate the thorough climate of the slave
+        trade in Southern African territories.
+      </span>
+    ),
+  },
 ];

@@ -144,4 +144,45 @@ export const locations = [
     image: "/assets/images/locations/usa.png",
     sound: "",
   },
+
+  //============================
+  // South african tour locations
+  //============================
+
+  {
+    id: 20,
+    name: "southafrica",
+    position: { x: 1273, y: 735 },
+    image: "/assets/images/locations/southafrica.png",
+    sound: "assets/sounds/southafrica.mp3",
+  },
+  {
+    id: 21,
+    name: "indonesia",
+    position: { x: 2038, y: 617 },
+    image: "/assets/images/locations/indonesia.png",
+    sound: "assets/sounds/indonesia.mp3",
+  },
+  {
+    id: 22,
+    name: "india",
+    position: { x: 1779, y: 308 },
+    image: "/assets/images/locations/india.png",
+    sound: "assets/sounds/india.mp3",
+  },
+
+  {
+    id: 23,
+    name: "madagaskar",
+    position: { x: 1558, y: 801 },
+    image: "/assets/images/locations/madagaskar.png",
+    sound: "assets/sounds/madagaskar.mp3",
+  },
+  {
+    id: 24,
+    name: "netherlands",
+    position: { x: 1208, y: 121 },
+    image: "/assets/images/locations/netherlands.png",
+    sound: "assets/sounds/netherlands.mp3",
+  },
 ];

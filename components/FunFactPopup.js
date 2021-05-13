@@ -48,6 +48,9 @@ const useStyles = makeStyles((theme) => ({
     zIndex: 31,
     width: "100%",
     height: "100%",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
   },
   dialogCloseButton: {
     position: "absolute",
@@ -66,5 +69,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: 18,
     fontWeight: 600,
     color: "#795120",
+
+    textAlign: "center",
   },
 }));
