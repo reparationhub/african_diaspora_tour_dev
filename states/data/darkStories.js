@@ -176,4 +176,53 @@ export const darkStories = [
       </span>
     ),
   },
+
+  //=========================
+  // South Africa Dark Stories
+  //=========================
+
+  {
+    id: 15,
+    name: "southafrica",
+    position: { x: 1500, y: 780 },
+    description: (
+      <span>
+        26.4% of enslaved people in south Africa came Mozambique and East
+        Africa.
+      </span>
+    ),
+  },
+  {
+    id: 16,
+    name: "madagaskar",
+    position: { x: 1580, y: 860 },
+    description: (
+      <span>
+        25.1% of enslaved people in south Africa came from Madagascar and the
+        Mascarene Islands -- Mauritius, Réunion and Rodrigues.
+      </span>
+    ),
+  },
+  {
+    id: 17,
+    name: "india",
+    position: { x: 1880, y: 560 },
+    description: (
+      <span>
+        25.9% of enslaved people in south Africa came from the Indian
+        sub-continent and Sri Lanka.
+      </span>
+    ),
+  },
+  {
+    id: 18,
+    name: "indonesia",
+    position: { x: 2200, y: 740 },
+    description: (
+      <span>
+        22.7% of enslaved people in south Africa came from the Indonesian
+        archipelag.
+      </span>
+    ),
+  },
 ];

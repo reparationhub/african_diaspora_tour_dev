@@ -43,9 +43,9 @@ export const tours = [
     name: "South African Tour",
     locations: [20, 21, 22, 23, 24],
     funFacts: [12, 13, 14, 15, 16],
-    darkStories: [],
-    startButtons: [],
-    arrows: [],
+    darkStories: [15, 16, 17, 18],
+    startButtons: [4],
+    arrows: [3],
     mapState: {
       zoom: 1,
       position: { x: -400, y: 0 },
