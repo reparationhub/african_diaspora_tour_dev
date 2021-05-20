@@ -198,7 +198,7 @@ export default function TourStart() {
             />
           )}
 
-          <BackButton />
+          <BackButton {...{ currentSlide }} />
         </Box>
       </main>
     </div>

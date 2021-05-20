@@ -9,7 +9,14 @@ export default function StorySlide({ slide, moveSlide, slideNavNumbers }) {
   const { slideIndex, slideCount } = slideNavNumbers;
 
   return (
-    <Box className={classes.slideWrapper}>
+    <Box
+      className={clsx(
+        classes.slideWrapper,
+        slide.slidePosition && slide.slidePosition === "left"
+          ? classes.left
+          : classes.right
+      )}
+    >
       <Box p={4}>
         <Box className={classes.slideImage}>
           <img src={image} alt="" />
@@ -60,11 +67,16 @@ const useStyles = makeStyles((theme) => ({
     position: "absolute",
     zIndex: 10,
     bottom: 15,
-    right: 15,
     backgroundColor: "rgba(255,215,83,.6)",
     width: 450,
     borderRadius: 40,
     transition: "all 0.3s ease",
+  },
+  left: {
+    left: 15,
+  },
+  right: {
+    right: 15,
   },
   slideDescription: {
     lineHeight: 1.5,

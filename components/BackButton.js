@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { Box, makeStyles, Button } from "@material-ui/core";
 import { useRouter } from "next/router";
+import clsx from "clsx";
 
-export default function BackButton() {
+export default function BackButton({ currentSlide }) {
   const classes = useStyles();
   const router = useRouter();
   const [tourId, setTourId] = useState("");
@@ -36,7 +37,16 @@ export default function BackButton() {
   return (
     <>
       {isButtonActive && (
-        <Box className={classes.backButton}>
+        <Box
+          className={clsx(
+            classes.backButton,
+            currentSlide &&
+              currentSlide.slidePosition &&
+              currentSlide.slidePosition === "left"
+              ? classes.right
+              : classes.left
+          )}
+        >
           <Box className={classes.icon}>
             <img src="/assets/images/globe.png" />
           </Box>
@@ -71,7 +81,6 @@ const useStyles = makeStyles((theme) => ({
   backButton: {
     position: "absolute",
     bottom: 50,
-    left: 100,
     width: 150,
     height: 100,
     zIndex: 999,
@@ -87,6 +96,13 @@ const useStyles = makeStyles((theme) => ({
         pointerEvents: "all",
       },
     },
+  },
+
+  left: {
+    left: 100,
+  },
+  right: {
+    right: 100,
   },
 
   icon: {
