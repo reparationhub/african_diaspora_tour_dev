@@ -10,7 +10,7 @@ export const introSlides = [
       position: { x: -410, y: -200 },
     },
     flags: [3],
-    locations: [20],
+    locations: [25],
     darkStories: [15],
     funFacts: [14],
     title: "",
@@ -22,8 +22,7 @@ export const introSlides = [
         1834.
         <br />
         <br />
-        Let’s explore the country of South Africa in more detail, and then we
-        will move on to the history of slavery in southern African territories.
+        Let’s explore the country of South Africa in more detail.
       </span>
     ),
   },
@@ -40,7 +39,7 @@ export const introSlides = [
       position: { x: -410, y: -200 },
     },
     flags: [],
-    locations: [20],
+    locations: [25],
     darkStories: [15],
     funFacts: [14],
     title: "",
@@ -68,7 +67,7 @@ export const introSlides = [
       position: { x: -410, y: -200 },
     },
     flags: [],
-    locations: [20],
+    locations: [25],
     darkStories: [15],
     funFacts: [14],
     title: "",
@@ -95,7 +94,7 @@ export const introSlides = [
       position: { x: -410, y: -200 },
     },
     flags: [],
-    locations: [20],
+    locations: [25],
     darkStories: [15],
     funFacts: [14],
     title: "",
@@ -122,7 +121,7 @@ export const introSlides = [
       position: { x: -410, y: -200 },
     },
     flags: [],
-    locations: [20],
+    locations: [25],
     darkStories: [15],
     funFacts: [14],
     title: "",
@@ -151,7 +150,7 @@ export const introSlides = [
       position: { x: -410, y: -200 },
     },
     flags: [],
-    locations: [20],
+    locations: [25],
     darkStories: [15],
     funFacts: [14],
     title: "",

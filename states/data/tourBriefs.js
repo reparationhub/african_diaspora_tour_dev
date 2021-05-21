@@ -60,8 +60,8 @@ export const tourBriefs = [
         <br />
         <br />
         In this journey, we will investigate the historical backdrop of slavery
-        in South Africa, you will investigate the thorough climate of the slave
-        trade in Southern African territories.
+        in southern African territories, you will investigate the thorough
+        climate of the slave trade in South Africa.
       </span>
     ),
   },

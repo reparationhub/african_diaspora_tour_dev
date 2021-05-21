@@ -187,7 +187,7 @@ export const darkStories = [
     position: { x: 1500, y: 780 },
     description: (
       <span>
-        26.4% of enslaved people in south Africa came Mozambique and East
+        26.4% of enslaved people in south Africa came from Mozambique and East
         Africa.
       </span>
     ),

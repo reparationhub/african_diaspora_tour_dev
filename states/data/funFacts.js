@@ -162,7 +162,7 @@ export const funFacts = [
   {
     id: 14,
     name: "southafrica",
-    position: { x: 1380, y: 860 },
+    position: { x: 1380, y: 945 },
     description: (
       <span>
         South Africa is the only country in the world with three capital cities:

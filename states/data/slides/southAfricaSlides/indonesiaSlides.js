@@ -1,3 +1,7 @@
+let screenWidth =
+  typeof window !== "undefined" ? window.innerWidth : global.innerWidth;
+let isHd = screenWidth >= 1900 ? true : false;
+
 export const indonesiaSlides = [
   {
     tourId: 4,
@@ -8,7 +12,7 @@ export const indonesiaSlides = [
       zoom: 1.6,
       freezed: true,
       blur: 4,
-      position: { x: -750, y: -200 },
+      position: { x: isHd ? -750 : -1030, y: -200 },
     },
     flags: [],
     locations: [21],
@@ -35,7 +39,7 @@ export const indonesiaSlides = [
       zoom: 1.5,
       freezed: true,
       blur: 4,
-      position: { x: -720, y: -200 },
+      position: { x: isHd ? -720 : -1000, y: -200 },
     },
     flags: [],
     locations: [21],
@@ -63,7 +67,7 @@ export const indonesiaSlides = [
       zoom: 1.4,
       freezed: true,
       blur: 4,
-      position: { x: -690, y: -200 },
+      position: { x: isHd ? -690 : -970, y: -200 },
     },
     flags: [],
     locations: [21],
@@ -88,7 +92,7 @@ export const indonesiaSlides = [
       zoom: 1.3,
       freezed: true,
       blur: 4,
-      position: { x: -660, y: -200 },
+      position: { x: isHd ? -660 : -940, y: -200 },
     },
     flags: [],
     locations: [21],
@@ -115,7 +119,7 @@ export const indonesiaSlides = [
       zoom: 1.2,
       freezed: true,
       blur: 4,
-      position: { x: -630, y: -200 },
+      position: { x: isHd ? -630 : -910, y: -200 },
     },
     flags: [],
     locations: [21],
@@ -141,7 +145,7 @@ export const indonesiaSlides = [
       zoom: 1.1,
       freezed: true,
       blur: 4,
-      position: { x: -600, y: -200 },
+      position: { x: isHd ? -600 : -880, y: -200 },
     },
     flags: [],
     locations: [21],
@@ -169,7 +173,7 @@ export const indonesiaSlides = [
       zoom: 1.0,
       freezed: true,
       blur: 4,
-      position: { x: -570, y: -200 },
+      position: { x: isHd ? -570 : -850, y: -200 },
     },
     flags: [],
     locations: [21],

@@ -8,7 +8,7 @@ export const saudiarabiaSlides = [
       <span>
         Let's dive in and take a look at the role of Omani Arabs in East African
         Slavery. Click on the map of{" "}
-        <span className="highlighted">Saudia Arabia</span> to proceed.
+        <span className="highlighted">Saudi Arabia</span> to proceed.
       </span>
     ),
     mapState: {

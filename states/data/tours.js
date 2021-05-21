@@ -1,10 +1,5 @@
 export const tours = [
   {
-    id: 1,
-    name: "North African Tour",
-    available: false,
-  },
-  {
     id: 2,
     name: "West African Tour",
     locations: [1, 2, 7, 6, 8, 5, 9],
@@ -41,7 +36,7 @@ export const tours = [
   {
     id: 4,
     name: "South African Tour",
-    locations: [20, 21, 22, 23, 24],
+    locations: [20, 21, 22, 23, 24, 25],
     funFacts: [12, 13, 14, 15, 16],
     darkStories: [15, 16, 17, 18],
     startButtons: [4],
@@ -54,6 +49,11 @@ export const tours = [
       freezed: false,
     },
     available: true,
+  },
+  {
+    id: 1,
+    name: "North African Tour",
+    available: false,
   },
 ];
 //

@@ -2,6 +2,7 @@ export const indiaSlides = [
   {
     tourId: 4,
     type: "stop",
+    slidePosition: "left",
     name: "",
     mapState: {
       dark: 0.8,
@@ -28,6 +29,7 @@ export const indiaSlides = [
   {
     tourId: 4,
     type: "story",
+    slidePosition: "left",
     name: "india-slides",
     mapState: {
       dark: 0.8,
@@ -56,6 +58,7 @@ export const indiaSlides = [
   {
     tourId: 4,
     type: "story",
+    slidePosition: "left",
     name: "india-slides",
     mapState: {
       dark: 0.8,
@@ -84,6 +87,7 @@ export const indiaSlides = [
   {
     tourId: 4,
     type: "story",
+    slidePosition: "left",
     name: "india-slides",
     mapState: {
       dark: 0.8,
@@ -113,6 +117,7 @@ export const indiaSlides = [
   {
     tourId: 4,
     type: "story",
+    slidePosition: "left",
     name: "india-slides",
     mapState: {
       dark: 0.8,
@@ -142,6 +147,7 @@ export const indiaSlides = [
   {
     tourId: 4,
     type: "story",
+    slidePosition: "left",
     name: "india-slides",
     mapState: {
       dark: 0.8,

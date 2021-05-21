@@ -18,8 +18,8 @@ export const netherlandSlides = [
     title: "1ST STOP",
     description: (
       <span>
-        It’s time to investigate the role of the Dutch regarding South African
-        slavery. Click on the map of the{" "}
+        It’s time to investigate the role of the Dutch surrounding slavery in
+        South Africa. Click on the map of the{" "}
         <span className="highlighted">Netherlands</span> to proceed.
       </span>
     ),

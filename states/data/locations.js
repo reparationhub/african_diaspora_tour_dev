@@ -154,7 +154,7 @@ export const locations = [
     name: "southafrica",
     position: { x: 1273, y: 735 },
     image: "/assets/images/locations/southafrica.png",
-    sound: "assets/sounds/southafrica.mp3",
+    sound: "",
   },
   {
     id: 21,
@@ -184,5 +184,12 @@ export const locations = [
     position: { x: 1208, y: 121 },
     image: "/assets/images/locations/netherlands.png",
     sound: "assets/sounds/netherlands.mp3",
+  },
+  {
+    id: 25,
+    name: "southafricacountry",
+    position: { x: 1316, y: 906 },
+    image: "/assets/images/locations/southafricacountry.png",
+    sound: "assets/sounds/southafrica.mp3",
   },
 ];
