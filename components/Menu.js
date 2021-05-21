@@ -22,7 +22,7 @@ export default function Menu() {
       <Box className={classes.menuContent}>
         <h2 className={classes.menuTitle}>Welcome to African Diaspora Tour</h2>
         <h6 className={classes.menuSubtitle}>
-          Select an available tour from below options
+          Select an available tour from the below options :
         </h6>
         <Box pl={2} pr={2}>
           {tours.map((tour) => (
@@ -95,11 +95,11 @@ const useStyles = makeStyles((theme) => ({
   },
   menuSubtitle: {
     fontSize: 14,
-    fontWeight: "400",
+    fontWeight: "600",
     textAlign: "center",
     color: "#c48b4b",
     marginTop: 5,
-    marginBottom: 30,
+    marginBottom: 15,
     // textDecoration: "underline",
   },
   menuLink: {
