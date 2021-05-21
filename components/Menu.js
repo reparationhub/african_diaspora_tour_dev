@@ -113,7 +113,7 @@ const useStyles = makeStyles((theme) => ({
   },
   button: {
     backgroundColor: "#926430",
-    padding: "15px 30px",
+    padding: "12px 30px",
     width: "100%",
     textAlign: "center",
     borderRadius: 60,
