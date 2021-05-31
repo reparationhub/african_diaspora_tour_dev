@@ -17,4 +17,10 @@ export const startButtons = [
     name: "Tour South Africa",
     position: { x: 1050, y: 750 },
   },
+  {
+    id: 1,
+    tourId: 1,
+    name: "Tour North Africa",
+    position: { x: 860, y: 400 },
+  },
 ];

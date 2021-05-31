@@ -225,4 +225,22 @@ export const darkStories = [
       </span>
     ),
   },
+
+  //=========================
+  // North Africa Dark Stories
+  //=========================
+
+  {
+    id: 19,
+    name: "ukfrance",
+    position: { x: 1150, y: 140 },
+    description: (
+      <span>
+        Between 1 million and 1.25 million Europeans located in Italy, Spain,
+        France, England, the Netherlands and as far away as Iceland were
+        captured by Barbary pirates and sold as slaves in North Africa and
+        Ottoman Empire between the 15th and 19th centuries.
+      </span>
+    ),
+  },
 ];

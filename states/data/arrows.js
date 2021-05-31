@@ -17,4 +17,10 @@ export const arrows = [
     position: { x: 830, y: 590 },
     rotate: 40,
   },
+  {
+    id: 4,
+    image: "/assets/images/arrow.png",
+    position: { x: 640, y: 460 },
+    rotate: -40,
+  },
 ];

@@ -65,4 +65,23 @@ export const tourBriefs = [
       </span>
     ),
   },
+  {
+    tourId: 1,
+    name: "The North African Slave Trade",
+    details: (
+      <span>
+        Slavery in northern Africa dates back to ancient Egypt. The New Kingdom
+        (1558–1080 BC) brought in large numbers of slaves as prisoners of war up
+        the Nile valley and used them for domestic and supervised labor.
+        Ptolemaic Egypt (305 BC–30 BC) used both land and sea routes to bring
+        slaves in.
+        <br />
+        <br />
+        In this journey we learn how European slaves were acquired by Barbary
+        pirates in slave raids on ships and by raids on coastal towns from Italy
+        to the Netherlands, Ireland and the southwest of Britain, as far north
+        as Iceland and into the eastern Mediterranean.
+      </span>
+    ),
+  },
 ];

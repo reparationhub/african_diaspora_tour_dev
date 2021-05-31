@@ -192,4 +192,61 @@ export const funFacts = [
       </span>
     ),
   },
+
+  // ======================
+  // South Africa fun facts
+  //=======================
+
+  {
+    id: 17,
+    name: "algeria",
+    position: { x: 1180, y: 310 },
+    description: (
+      <span>
+        Unlike in most Islamic nations, women's status and position in Algeria
+        is much better.
+      </span>
+    ),
+  },
+
+  {
+    id: 18,
+    name: "egypt",
+    position: { x: 1400, y: 355 },
+    description: (
+      <span>Egyptians used moldy bread to help with infections.</span>
+    ),
+  },
+  {
+    id: 19,
+    name: "lybia",
+    position: { x: 1270, y: 350 },
+    description: <span>Libya has had only one king in its lifetime. </span>,
+  },
+
+  {
+    id: 20,
+    name: "morocco",
+    position: { x: 1100, y: 310 },
+    description: <span>There are no camels in Morocco only dromedaries.</span>,
+  },
+
+  {
+    id: 21,
+    name: "sudan",
+    position: { x: 1400, y: 480 },
+    description: <span>Over 97% of Sudan's population is Muslim.</span>,
+  },
+
+  {
+    id: 22,
+    name: "tunisia",
+    position: { x: 1240, y: 280 },
+    description: (
+      <span>
+        Some of the Tunisian people still live in underground housing in an area
+        called Matmata.
+      </span>
+    ),
+  },
 ];

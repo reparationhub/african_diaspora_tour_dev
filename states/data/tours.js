@@ -53,7 +53,33 @@ export const tours = [
   {
     id: 1,
     name: "North Africa Tour",
-    available: false,
+    locations: [26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41],
+
+    funFacts: [17, 18, 19, 20, 21, 22],
+    darkStories: [19],
+    startButtons: [1],
+    arrows: [4],
+    mapState: {
+      zoom: 1,
+      position: { x: -400, y: 0 },
+      dark: 0.5,
+      blur: 0,
+      freezed: false,
+    },
+
+    // funFacts: [],
+    // darkStories: [],
+    // startButtons: [],
+    // arrows: [],
+    // locations: [43, 13, 9, 24, 44],
+    // mapState: {
+    //   zoom: 1,
+    //   position: { x: -400, y: 0 },
+    //   dark: 0.7,
+    //   blur: 5,
+    //   freezed: false,
+    // },
+    available: true,
   },
 ];
 //

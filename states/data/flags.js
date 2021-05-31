@@ -14,4 +14,10 @@ export const flags = [
     image: "/assets/images/start-flag.png",
     position: { x: 1360, y: 845 },
   },
+
+  {
+    id: 4,
+    image: "/assets/images/start-flag.png",
+    position: { x: 1290, y: 270 },
+  },
 ];
