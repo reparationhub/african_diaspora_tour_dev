@@ -311,7 +311,7 @@ export const locations = [
 
   {
     id: 42,
-    name: "baarbarycoast",
+    name: "Barbary Coast",
     position: { x: 1052, y: 285 },
     image: "/assets/images/locations/barbarycoast.png",
     sound: "",

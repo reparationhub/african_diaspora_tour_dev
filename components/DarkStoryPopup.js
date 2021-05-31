@@ -2,6 +2,7 @@ import { Box, makeStyles, Dialog } from "@material-ui/core";
 import { CloseOutlined } from "@material-ui/icons";
 import { funFacts } from "states/data/funFacts";
 import { useEffect, useState } from "react";
+import clsx from "clsx";
 
 export default function DarkStoryPopup({ open, handleDialog, darkStory }) {
   const classes = useStyles();
@@ -28,7 +29,10 @@ export default function DarkStoryPopup({ open, handleDialog, darkStory }) {
       )}
 
       <Dialog
-        className={classes.dialog}
+        className={clsx(
+          classes.dialog,
+          highlight ? classes.highlightDialog : ""
+        )}
         open={open}
         transitionDuration={{
           enter: 100,
@@ -100,12 +104,19 @@ const useStyles = makeStyles((theme) => ({
 
   highlightImage: {
     position: "absolute",
-    top: 80,
-    left: 800,
+    top: 50,
+    left: 1060,
     zIndex: 999,
 
     "& img": {
       border: "2px solid #CEBE34",
+    },
+  },
+
+  highlightDialog: {
+    "& .MuiDialog-paperScrollPaper": {
+      left: -450,
+      top: 150,
     },
   },
 }));

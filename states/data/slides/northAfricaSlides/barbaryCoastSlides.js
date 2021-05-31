@@ -20,6 +20,8 @@ export const barbaryCoastSlides = [
         Piracy became an important source of slaves for the Roman Empire and in
         the 5th century AD pirates of Barbary would raid coastal North African
         villages and enslave the capture. Let’s examine the Barbary slave trade.
+        Click on the map of the{" "}
+        <span className="highlighted">Barbary Coast</span> to continue.
       </span>
     ),
   },
@@ -46,9 +48,9 @@ export const barbaryCoastSlides = [
       <span>
         The Barbary slave trade refers to slave markets on the Barbary Coast of
         North Africa, which included the Ottoman provinces of Algeria, Tunisia
-        and Tripolitania and the independent sultanate of Morocco, between the
-        16th and middle of the 18th century.. The Barbary Coast became well
-        known as a corsair region.
+        and Tripolitania and the independent sultanate of Morocco. Between the
+        16th and middle of the 18th century, The Barbary Coast became well known
+        as a corsair region.
       </span>
     ),
   },

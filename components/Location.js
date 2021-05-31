@@ -44,6 +44,12 @@ export default function Location({ location, isLocationClickable, moveSlide }) {
       onMouseEnter={playSound}
       onMouseLeave={stopSound}
     >
+      {location.name === "Barbary Coast" && (
+        <Box className={classes.locationName}>
+          <span>{location.name}</span>
+        </Box>
+      )}
+
       <img src={image} alt="" />
     </Box>
   );
@@ -54,5 +60,21 @@ const useStyles = makeStyles((theme) => ({
     position: "absolute",
     zIndex: 15,
     cursor: "pointer",
+  },
+
+  locationName: {
+    position: "absolute",
+    width: "100%",
+    height: "100%",
+
+    "& span": {
+      position: "absolute",
+      top: 45,
+      left: 120,
+      fontSize: 16,
+      fontWeight: 600,
+      color: "#a20a0a",
+      zIndex: 999,
+    },
   },
 }));
