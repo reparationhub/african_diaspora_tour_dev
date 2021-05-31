@@ -20,10 +20,8 @@ export default function Menu() {
     <Box className={classes.menuWrapper}>
       <img src="/assets/images/popup-bg.png" />
       <Box className={classes.menuContent}>
-        <h2 className={classes.menuTitle}>Welcome to African Diaspora Tour</h2>
-        <h6 className={classes.menuSubtitle}>
-          Select an available tour from the below options :
-        </h6>
+        <h2 className={classes.menuTitle}>Welcome to tours of Africa</h2>
+        <h6 className={classes.menuSubtitle}>Select a tour from the menu:</h6>
         <Box pl={2} pr={2}>
           {tours.map((tour) => (
             <Box
