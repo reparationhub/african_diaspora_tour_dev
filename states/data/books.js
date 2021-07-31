@@ -58,7 +58,7 @@ export const books = [
     iconImage: "/assets/images/booksImage/carribean_icon.png",
     bookImage: "/assets/images/booksImage/carribean_book.png",
     title:
-      "Recorded and Written proof that Africans were in the Americas before Christopher Columbus didn't discover the Americas",
+      "Recorded and Written proof that Africans were in the Americas before Christopher Columbus",
     description: (
       <span>
         Did you know that Columbus himself mentions being watched by people when
@@ -73,12 +73,22 @@ export const books = [
         West Africa. Columbus goes on to say that the spears were given to him
         by dark-skinned people in large boats. <br />
         <br />
+        <br />
         <a
           href="https://www.lahc.edu/studentservices/aso/bsu/knowyourhistory/10PiecesofEvidenceThatProve.pdf"
           className="booklink"
           target="_blank"
         >
-          CLICK HERE FOR MORE FACTS. BOOK RECOMMENDATION by LEO WIENER
+          CLICK HERE FOR MORE FACTS.
+        </a>
+        <br />
+        <br />
+        <a
+          href="https://www.amazon.ca/Africa-Discovery-America-Leo-Wiener/dp/1617590029"
+          className="booklink"
+          target="_blank"
+        >
+          BOOK RECOMMENDATION by LEO WIENER
         </a>
       </span>
     ),
@@ -87,7 +97,7 @@ export const books = [
   {
     id: 3,
     name: "brazil",
-    position: { x: 575, y: 778 },
+    position: { x: 580, y: 780 },
     iconImage: "/assets/images/booksImage/brazil_icon3.png",
     bookImage: "/assets/images/booksImage/brazil2_book.png",
     title:

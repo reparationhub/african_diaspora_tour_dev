@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Box, makeStyles } from "@material-ui/core";
 import BookPopup from "./BookPopup";
+import clsx from "clsx";
 
 export default function Book({ book }) {
   const styles = useStyles();
@@ -20,7 +21,10 @@ export default function Book({ book }) {
     <>
       <BookPopup {...{ open, book, handleDialog }} />
       <Box
-        className={styles.bookButton}
+        className={clsx(
+          styles.bookButton,
+          book.name == "brazil" ? "brazil" : ""
+        )}
         style={{
           left: book.position.x,
           top: book.position.y,
@@ -39,6 +43,12 @@ const useStyles = makeStyles((theme) => ({
     zIndex: "9999",
     cursor: "pointer",
     transition: "all 0.3s ease",
+
+    "&.brazil": {
+      "& img": {
+        width: 60,
+      },
+    },
 
     "& img": {
       width: 45,
