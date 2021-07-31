@@ -15,6 +15,7 @@ import StorySlide from "components/StorySlide";
 import StopSlide from "components/StopSlide";
 import TourEndSlide from "components/TourEndSlide";
 import BackButton from "components/BackButton";
+import BookButton from "components/BookButton";
 
 export default function TourStart() {
   const classes = useStyles();
@@ -30,6 +31,7 @@ export default function TourStart() {
   const [currentSlide, setCurrentSlide] = useState(null);
   const [slideNavNumbers, setSlideNavNumbers] = useState(null);
   const [isLocationClickable, setIsLocationClickable] = useState(false);
+  const [activeBooks, setActiveBooks] = useState([]);
 
   // Utility function to update local states according to the tour cnfiguration
   const findAndSetLocalState = (property) => {
@@ -47,6 +49,7 @@ export default function TourStart() {
       if (property === "funFacts") setActiveFunFacts(active);
       if (property === "darkStories") setActiveDarkStories(active);
       if (property === "darkStories") setActiveDarkStories(active);
+      if (property === "books") setActiveBooks(active);
     }
   };
 
@@ -90,6 +93,7 @@ export default function TourStart() {
     if (property === "funFacts") setActiveFunFacts(active);
     if (property === "darkStories") setActiveDarkStories(active);
     if (property === "flags") setActiveFlags(active);
+    if (property === "books") setActiveBooks(active);
   };
 
   // Next and previous actions
@@ -103,12 +107,14 @@ export default function TourStart() {
   // Changing states while slide changes
   useEffect(() => {
     if (currentSlide) {
-      let { mapState, locations, funFacts, darkStories, flags } = currentSlide;
+      let { mapState, locations, funFacts, darkStories, flags, books } =
+        currentSlide;
       setMapStateWithTransition(mapState);
       getAndSetFromGlobalState("locations", locations);
       getAndSetFromGlobalState("funFacts", funFacts);
       getAndSetFromGlobalState("darkStories", darkStories);
       getAndSetFromGlobalState("flags", flags);
+      getAndSetFromGlobalState("books", currentSlide["books"] || []);
 
       if (currentSlide.type === "stop") {
         setIsLocationClickable(true);
@@ -167,6 +173,12 @@ export default function TourStart() {
             {/* Rendering start flag */}
             {activeFlags.length > 0 &&
               activeFlags.map((flag) => <Flag key={uuid()} {...{ flag }} />)}
+
+            {/* Rendering books */}
+            {activeBooks.length > 0 &&
+              activeBooks.map((book) => (
+                <BookButton key={uuid()} {...{ book }} />
+              ))}
           </Map>
 
           {/* Rendering intro slide */}

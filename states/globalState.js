@@ -8,6 +8,7 @@ import { startButtons } from "./data/startButtons";
 import { flags } from "./data/flags";
 import { slides } from "./data/slides";
 import { arrows } from "./data/arrows";
+import { books } from "./data/books";
 
 export const globalState = {
   mapInitialState,
@@ -20,4 +21,5 @@ export const globalState = {
   flags,
   slides,
   arrows,
+  books,
 };

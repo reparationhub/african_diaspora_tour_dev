@@ -10,6 +10,7 @@ export const nigeriaSlides = [
       position: { x: -200, y: -100 },
     },
     flags: [1],
+    books: [2, 3],
     locations: [4],
     darkStories: [],
     funFacts: [],
@@ -38,6 +39,7 @@ export const nigeriaSlides = [
       position: { x: -330, y: -80 },
     },
     flags: [],
+    books: [2, 3],
     locations: [4],
     darkStories: [],
     funFacts: [],
@@ -74,6 +76,7 @@ export const nigeriaSlides = [
     darkStories: [],
     funFacts: [],
     flags: [],
+    books: [2, 3],
     image: "/assets/images/slide-nigeria/2.png",
     title: "",
     description: (
@@ -105,6 +108,7 @@ export const nigeriaSlides = [
     darkStories: [],
     funFacts: [],
     flags: [],
+    books: [2, 3],
     image: "/assets/images/slide-nigeria/3.png",
     title: "",
     description: (
@@ -136,6 +140,7 @@ export const nigeriaSlides = [
     darkStories: [],
     funFacts: [],
     flags: [],
+    books: [2, 3],
     image: "/assets/images/slide-nigeria/4.png",
     title: "",
     description: (
@@ -167,6 +172,7 @@ export const nigeriaSlides = [
     darkStories: [],
     funFacts: [],
     flags: [],
+    books: [2, 3],
     image: "/assets/images/slide-nigeria/5.png",
     title: "",
     description: (
@@ -201,6 +207,7 @@ export const nigeriaSlides = [
     darkStories: [],
     funFacts: [],
     flags: [],
+    books: [2, 3],
     image: "/assets/images/slide-nigeria/6.png",
     title: "",
     description: (

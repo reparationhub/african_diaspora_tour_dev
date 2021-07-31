@@ -20,6 +20,7 @@ export const carribeanSlides = [
     darkStories: [],
     funFacts: [],
     flags: [],
+    books: [2, 3],
   },
 
   {
@@ -46,6 +47,7 @@ export const carribeanSlides = [
     darkStories: [5],
     funFacts: [4],
     flags: [],
+    books: [2, 3],
   },
 
   {
@@ -72,6 +74,7 @@ export const carribeanSlides = [
     darkStories: [5],
     funFacts: [4],
     flags: [],
+    books: [2, 3],
   },
   {
     tourId: 2,
@@ -100,6 +103,7 @@ export const carribeanSlides = [
     darkStories: [5],
     funFacts: [4],
     flags: [],
+    books: [2, 3],
   },
   {
     tourId: 2,
@@ -127,6 +131,7 @@ export const carribeanSlides = [
     darkStories: [5],
     funFacts: [4],
     flags: [],
+    books: [2, 3],
   },
   {
     tourId: 2,
@@ -162,5 +167,6 @@ export const carribeanSlides = [
     darkStories: [5],
     funFacts: [4],
     flags: [],
+    books: [2, 3],
   },
 ];

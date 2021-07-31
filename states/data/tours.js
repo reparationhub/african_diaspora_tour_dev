@@ -7,6 +7,7 @@ export const tours = [
     darkStories: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     startButtons: [2],
     arrows: [1],
+    books: [2, 3],
     mapState: {
       zoom: 1,
       position: { x: 0, y: 0 },
@@ -24,6 +25,7 @@ export const tours = [
     darkStories: [11, 12, 13, 14],
     startButtons: [3],
     arrows: [2],
+    books: [],
     mapState: {
       zoom: 1,
       position: { x: -460, y: 0 },
@@ -41,6 +43,7 @@ export const tours = [
     darkStories: [15, 16, 17, 18],
     startButtons: [4],
     arrows: [3],
+    books: [],
     mapState: {
       zoom: 1,
       position: { x: -400, y: 0 },
@@ -59,6 +62,7 @@ export const tours = [
     darkStories: [19],
     startButtons: [1],
     arrows: [4],
+    books: [1],
     mapState: {
       zoom: 1,
       position: { x: -400, y: 0 },
