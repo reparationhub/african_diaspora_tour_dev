@@ -29,15 +29,17 @@ export const books = [
         -- a period that was not covered in Scientific research.
         <br />
         <br />
-        Indeed it was black-skinned Africans who were cursed of God in the bible
-        story of the Ten Commandments. It was also the black-skinned Africans of
-        ancient Egypt who were the leaders of the globe at one point in time and
-        have contributed to the world many discoveries, ideologies, and
-        philosophies such as the method of writing, paper, literature, art,
-        architecture, religion, science, mathematics, geometry, surveying,
-        metallurgy, astronomy, accounting, paper, medicine, the ramp, the lever,
-        the plough, mills for grinding grain and all the paraphernalia that goes
-        with large organized societies.
+        Indeed it was a black-skinned Egyptian African Pharaoh who was cursed of
+        God in the holy bible story of Exodus, the liberation of the people of
+        Israel from slavery in Egypt in the 13th century bce, under the
+        leadership of Moses. It was also the black-skinned Africans of ancient
+        Egypt who were the leaders of the globe at one point in time and have
+        contributed to the world many discoveries, ideologies, and philosophies
+        such as the method of writing, paper, literature, art, architecture,
+        religion, science, mathematics, geometry, surveying, metallurgy,
+        astronomy, accounting, paper, medicine, the ramp, the lever, the plough,
+        mills for grinding grain and all the paraphernalia that goes with large
+        organized societies.
         <br />
         <br />
         <a
