@@ -20,6 +20,7 @@ export const usaSlides = [
     darkStories: [],
     funFacts: [],
     flags: [],
+    books: [2, 3],
   },
   {
     tourId: 2,
@@ -48,6 +49,7 @@ export const usaSlides = [
     darkStories: [4],
     funFacts: [2],
     flags: [],
+    books: [2, 3],
   },
   {
     tourId: 2,
@@ -77,6 +79,7 @@ export const usaSlides = [
     darkStories: [4],
     funFacts: [2],
     flags: [],
+    books: [2, 3],
   },
   {
     tourId: 2,
@@ -104,6 +107,7 @@ export const usaSlides = [
     darkStories: [4],
     funFacts: [2],
     flags: [],
+    books: [2, 3],
   },
   {
     tourId: 2,
@@ -137,6 +141,7 @@ export const usaSlides = [
     darkStories: [4],
     funFacts: [2],
     flags: [],
+    books: [2, 3],
   },
 
   {
@@ -169,5 +174,6 @@ export const usaSlides = [
     darkStories: [4],
     funFacts: [2],
     flags: [],
+    books: [2, 3],
   },
 ];

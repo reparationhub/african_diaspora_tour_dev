@@ -12,6 +12,7 @@ export const egyptSlides = [
     },
     flags: [],
     locations: [10],
+
     darkStories: [],
     funFacts: [8],
     image: "",
@@ -39,6 +40,7 @@ export const egyptSlides = [
     },
     flags: [],
     locations: [10],
+
     darkStories: [],
     funFacts: [8],
     image: "/assets/images/slide-egypt/1.jpg",
@@ -69,6 +71,7 @@ export const egyptSlides = [
     },
     flags: [],
     locations: [10],
+
     darkStories: [],
     funFacts: [8],
     image: "/assets/images/slide-egypt/2.jpg",
@@ -96,6 +99,7 @@ export const egyptSlides = [
     },
     flags: [],
     locations: [17],
+
     darkStories: [],
     funFacts: [8],
     image: "/assets/images/slide-egypt/3.png",
@@ -126,6 +130,7 @@ export const egyptSlides = [
     },
     flags: [],
     locations: [17],
+
     darkStories: [],
     funFacts: [8],
     image: "/assets/images/slide-egypt/4.png",
@@ -158,6 +163,7 @@ export const egyptSlides = [
     },
     flags: [],
     locations: [17],
+
     darkStories: [],
     funFacts: [8],
     image: "/assets/images/slide-egypt/5.jpg",

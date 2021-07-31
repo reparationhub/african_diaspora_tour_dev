@@ -13,6 +13,7 @@ export const southAmericaSlides = [
     darkStories: [],
     funFacts: [],
     flags: [],
+    books: [2, 3],
     title: "1ST STOP",
     description: (
       <span>
@@ -47,6 +48,7 @@ export const southAmericaSlides = [
     darkStories: [2],
     funFacts: [3],
     flags: [],
+    books: [2, 3],
     title: "",
     description: (
       <span>
@@ -90,6 +92,7 @@ export const southAmericaSlides = [
     darkStories: [2],
     funFacts: [3],
     flags: [],
+    books: [2, 3],
   },
 
   {
@@ -122,6 +125,7 @@ export const southAmericaSlides = [
     darkStories: [2],
     funFacts: [3],
     flags: [],
+    books: [2, 3],
   },
 
   {
@@ -150,6 +154,7 @@ export const southAmericaSlides = [
     darkStories: [2],
     funFacts: [3],
     flags: [],
+    books: [2, 3],
   },
   {
     tourId: 2,
@@ -181,5 +186,6 @@ export const southAmericaSlides = [
     darkStories: [2],
     funFacts: [3],
     flags: [],
+    books: [2, 3],
   },
 ];

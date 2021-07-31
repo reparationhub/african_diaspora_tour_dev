@@ -9,6 +9,7 @@ import { createStore, applyMiddleware } from "redux";
 const store = createStore(rootReducer);
 
 function MyApp({ Component, pageProps }) {
+  console.log('test push')
   return (
     <Provider store={store}>
       <Component {...pageProps} />
