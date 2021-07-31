@@ -100,7 +100,7 @@ const useStyles = makeStyles((theme) => ({
     // position: "absolute",
     fontFamily: "Special Elite",
     lineHeight: 1.2,
-    fontSize: 15,
+    fontSize: 14,
     fontWeight: 600,
     color: "#763f2f",
     margin: 0,

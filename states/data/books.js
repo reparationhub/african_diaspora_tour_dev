@@ -26,16 +26,20 @@ export const books = [
         number two, unable to find any DNA in the mummified remains that they
         studied. In fact, the mummified remains studied were not older than 1300
         B.C. Keep in mind that predynastic Egypt existed between 5000 - 3100 BC
-        -- a period that was not covered in Scientific research. Indeed it was
-        black-skinned Africans who were cursed of God in the bible story of the
-        Ten Commandments. It was also the black-skinned Africans of ancient
-        Egypt who were the leaders of the globe at one point in time and have
-        contributed to the world many discoveries, ideas and philosophies such
-        as the method of writing, paper, literature, art, architecture,
-        religion, science, mathematics, geometry, surveying, metallurgy,
-        astronomy, accounting, paper, medicine, the ramp, the lever, the plough,
-        mills for grinding grain and all the paraphernalia that goes with large
-        organized societies.{" "}
+        -- a period that was not covered in Scientific research.
+        <br />
+        <br />
+        Indeed it was black-skinned Africans who were cursed of God in the bible
+        story of the Ten Commandments. It was also the black-skinned Africans of
+        ancient Egypt who were the leaders of the globe at one point in time and
+        have contributed to the world many discoveries, ideologies, and
+        philosophies such as the method of writing, paper, literature, art,
+        architecture, religion, science, mathematics, geometry, surveying,
+        metallurgy, astronomy, accounting, paper, medicine, the ramp, the lever,
+        the plough, mills for grinding grain and all the paraphernalia that goes
+        with large organized societies.
+        <br />
+        <br />
         <a
           className="booklink"
           href="https://www.youtube.com/watch?v=xA90BkjIDc0&t=65s"
@@ -62,10 +66,13 @@ export const books = [
         proves that the people watching Columbus were black Africans and
         Indigenous people -- who were in the land long before Columbus arrived.
         Columbus himself also mentions returning to Europe (from the Americas)
-        with spearheads made with gold (See photo). The spearheads in question
-        bear a striking resemblance to the ones in West Africa. Columbus goes on
-        to say that the spears were given to him by dark-skinned people in large
-        boats.{" "}
+        with spearheads made with gold (See photo).
+        <br />
+        <br />
+        The spearheads in question bear a striking resemblance to the ones in
+        West Africa. Columbus goes on to say that the spears were given to him
+        by dark-skinned people in large boats. <br />
+        <br />
         <a
           href="https://www.lahc.edu/studentservices/aso/bsu/knowyourhistory/10PiecesofEvidenceThatProve.pdf"
           className="booklink"
@@ -80,8 +87,8 @@ export const books = [
   {
     id: 3,
     name: "brazil",
-    position: { x: 570, y: 770 },
-    iconImage: "/assets/images/booksImage/brazil_icon.png",
+    position: { x: 575, y: 778 },
+    iconImage: "/assets/images/booksImage/brazil_icon3.png",
     bookImage: "/assets/images/booksImage/brazil2_book.png",
     title:
       "Archaeological Evidence Africans were in the Americas before Columbus",
@@ -96,7 +103,9 @@ export const books = [
         therefore, proves that Africans were respected, revered and more likely
         than not worshipped when they were there -- long before Columbus
         arrived. It is also worth noting that the helmets in the photos are very
-        much similar to helmets worn in sub-Saharan Africa.{" "}
+        much similar to helmets worn in sub-Saharan Africa.
+        <br />
+        <br />
         <a
           className="booklink"
           href="https://www.youtube.com/watch?v=Ymp1XuHFrps"
