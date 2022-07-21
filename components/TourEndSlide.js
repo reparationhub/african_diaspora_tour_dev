@@ -22,7 +22,7 @@ export default function TourEnd() {
           <h6 className={classes.subtitle}>Please click the below button</h6>
         </Box>
         <Box display="flex" justifyContent="center">
-          <a href="/" className={classes.button}>
+          <a href="https://www.reparationhub.com/end-of-tour/" className={classes.button}>
             Click this button
           </a>
         </Box>
